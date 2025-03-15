@@ -1,0 +1,7 @@
+
+body { text-align: center; font-family: Arial, sans-serif; background: #f0f0f0; padding: 20px; }
+canvas { background: #eee; border-radius: 50%; border: 5px solid #444; display: block; margin: 0 auto; }
+#score-display { margin: 20px auto; font-size: 24px; padding: 10px; background: #fff; border: 2px solid #444; width: 400px; }
+#camera-images { display: flex; justify-content: center; gap: 10px; margin-top: 20px; flex-wrap: wrap; }
+#camera-images img { max-width: 45%; border: 2px solid #333; border-radius: 10px; cursor: pointer; }
+#output { max-height: 300px; overflow-y: scroll; margin: 20px auto; padding: 10px; background: #fff; border: 1px solid #ccc; width: 90%; text-align: left; }
